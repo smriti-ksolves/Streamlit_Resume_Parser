@@ -2,8 +2,8 @@ import streamlit as st
 from pathlib import Path
 import os
 import pandas as pd
-from Streamlit_Resume_Parser.extraction_data import file_extract
-from Streamlit_Resume_Parser.question_generator import Generator
+from extraction_data import file_extract
+from question_generator import Generator
 st.title("Question Generator")
 
 text = st.empty()
